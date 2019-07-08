@@ -1,0 +1,59 @@
+#nav,
+.contact {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: fixed;
+  width: 100%;
+}
+#nav,
+.contact,
+#headline {
+  text-align: center;
+}
+
+#nav {
+  top: 0;
+}
+
+.contact {
+  bottom: 0;
+}
+
+button,
+a {
+  background: none;
+  border: none;
+  color: #bf8974;
+  cursor: pointer;
+  font: inherit;
+}
+
+button:hover,
+a:hover {
+  color: #e88980;
+}
+
+#headline,
+#bio,
+#quiz-app-description {
+  color: #654321;
+  font-family: "Poiret One", cursive;
+}
+
+#headline {
+  color: #654321;
+  font-size: 26px;
+}
+
+#bio {
+  font-size: 20px;
+}
+
+.img-screenshots {
+  height: 300px;
+}
+.screenshots {
+  padding-right: 100px;
+  text-align: right;
+}
